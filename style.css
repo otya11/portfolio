@@ -18,10 +18,12 @@ img{
 
 li{
     list-style: none;
+ 
 }
 
 .sabu-title a{
     display: block;
+
 }
 
 .section_title{
@@ -62,6 +64,8 @@ li{
 
 #header li a{
     color: #24292e;
+    border-bottom: solid 1px #383e45;
+    
 }
 
 #header li a:hover{
@@ -131,13 +135,19 @@ li{
         object-fit: cover;
     }
 
-
+video{
+    width: 90%;
+    height:100%;
+}
 
 
 #footer{
     font-size: 0.9rem;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
+     background-color: #333;
+    
     }
 
 
